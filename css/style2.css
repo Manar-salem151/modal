@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.pic{
+    width: 400px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+transform: translate(-50%,-50%);
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.733);
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#modal-btn{
+    padding: 10px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+
+#modal-img{
+display: block;
+margin: auto;
+width: 400px;
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
